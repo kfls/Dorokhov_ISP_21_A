@@ -1,0 +1,350 @@
+.nav__menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav_menu li {
+    margin: 0 10px;
+}
+
+.nav_button {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 35px 0px 35px;
+}
+
+
+.logo {
+    display: flex;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header__contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__about {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.nav_auth {
+    color: #0D9488;
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header__contents{
+    margin-top: 115px;
+}
+
+.main__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 250px;
+}
+
+.main__desc {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.button a{
+    background-color: #26A69A;
+    color: white;
+    padding: 19px 64px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    color: #F8FCFC;
+    text-align: right;
+    font-family: Jost;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #1e8073;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.footer_fon {
+    width: 100%;
+    height: auto;
+    background: #18181B;
+    position: absolute;
+    color: #727272;
+    text-align: center;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px;
+    margin-top: 330px;
+}
+
+.labs__title {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.labs__cont {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+.labs {
+    width: 50%;
+}
+
+.labs__numbers {
+    display: grid;
+    margin-top: 35px;
+}
+
+.main__labs {
+    margin-top: 155px;
+    display: flex;
+}
+
+.labs__target {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.lab__target__desc {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+
+.prew_code_one {
+    background-color: #101010;
+    border-radius: 5px;
+    padding: 25px;
+    max-width: 800px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+pre {
+    margin: 0;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: white;
+}
+
+.main_text_form {
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label.main_text_form {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input#diameter {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box; 
+}
+
+button[type="submit"] {
+    display: block;
+    width: 98%;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #337ab7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #286090;
+}
+
+.result {
+    color: white;
+}
+
+.labs__cont:hover {
+    color: #0D9488; 
+}
+
+.nav_button:hover {
+    color: #0D9488; 
+}
+
+input#length_A {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+input#length_B {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+input#number_A {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+input#number_B{
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+input#number_C{
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+input#number_x {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+input#number_z {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
+.result {
+    margin-top: 15px;
+}
+
+#footer {
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
