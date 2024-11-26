@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>4 Лабораторная</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/common.css">
     <link rel="stylesheet" href="../styles/reset.css">
@@ -22,7 +22,7 @@
                         <li><a href="#service" class="nav_button">Цель сайта</a></li>
                     </ul>
                     <ul class="nav__about">
-                        <li><a href="#" class="nav_auth">Репозиторий</a></li>
+                        <li><a href="https://github.com/kfls/Dorokhov_ISP_21_A" class="nav_auth">Репозиторий</a></li>
                     </ul>
             </div>
         </div>
@@ -35,7 +35,10 @@
                     <div class="labs__numbers">
                         <a href="/pages/3.php" class="labs__cont">Лабораторная работа 3</a>
                         <a href="/pages/4.php" class="labs__cont">Лабораторная работа 4</a>
-                        <a href="/pages/9/index.php" class="labs__cont">Лабораторная работа 9</a>
+                        <a href="/pages/5.php" class="labs__cont">Лабораторная работа 5</a>
+                        <a href="/pages/6.php" class="labs__cont">Лабораторная работа 6</a>
+                        <a href="/pages/7.php" class="labs__cont">Лабораторная работа 7</a>
+                        <a href="/pages/9/index.php" class="labs__cont">Лабораторная работа 8</a>
                     </div>
                 </div>
                 <div class="labs_contents">

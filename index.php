@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>DME</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/reset.css">
@@ -22,7 +22,7 @@
                         <li><a href="#service" class="nav_button">Цель сайта</a></li>
                     </ul>
                     <ul class="nav__about">
-                        <li><a href="#" class="nav_auth">Репозиторий</a></li>
+                        <li><a href="https://github.com/kfls/Dorokhov_ISP_21_A" class="nav_auth">Репозиторий</a></li>
                     </ul>
             </div>
         </div>

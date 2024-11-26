@@ -90,6 +90,12 @@ legend {
     margin: 0 auto;
 }
 
+@media (max-width: 1475px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
 
 @media (max-width: 930px) {
     .container {

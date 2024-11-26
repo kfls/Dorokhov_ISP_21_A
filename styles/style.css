@@ -281,6 +281,17 @@ input#length_B {
     box-sizing: border-box;
 }
 
+input#length_C {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background: white;
+    box-sizing: border-box;
+}
+
 input#number_A {
     width: calc(100% - 12px);
     padding: 10px;
@@ -348,3 +359,32 @@ input#number_z {
    width:100%;
 }
 
+@media (max-width: 1475px) {
+    .container {
+        max-width: 1350px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .main__labs {
+        flex-wrap: wrap;
+    }
+
+    .labs__target {
+        margin-top: 70px;
+    }
+
+    .labs {
+        width: auto;
+    }
+}
+
+@media (max-width: 930px) {
+    .main__title {
+        font-size: 39px;
+    }
+
+    .nav__menu{
+        display: none;
+    }
+}
